@@ -1,0 +1,13 @@
+[joint] generating 4 tasks x 2 instances x 16k (base_seed=42) ...
+  s1: 2 instances, ~77750 chars/instance, gold=1
+  mk1: 2 instances, ~69413 chars/instance, gold=1
+  vt: 2 instances, ~76006 chars/instance, gold=5
+  cwe: 2 instances, ~59950 chars/instance, gold=10
+[joint] 16/16  last: task=cwe try=2 ttft=83ms acc=1.00 cached=22656
+
+[joint] arm=dense -> /home/hadoop-scale-llm/VSCodeProjects/sglang/repro_results/ruler_joint_minimal_fixed_20260822/result_dense_joint.json
+  overall: acc=0.8625+-0.3403  ttft=486.3+-437.8ms  n=16
+  cwe: acc=1.0000  ttft_miss=1093.0ms  ttft_hit=77.8ms  hit=0.500
+  mk1: acc=1.0000  ttft_miss=687.7ms  ttft_hit=74.2ms  hit=0.500
+  s1: acc=1.0000  ttft_miss=947.2ms  ttft_hit=75.0ms  hit=0.500
+  vt: acc=0.4500  ttft_miss=860.4ms  ttft_hit=75.5ms  hit=0.500

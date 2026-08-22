@@ -1,0 +1,4 @@
+# Raw reproduction artifacts: preserve files without rendering huge diffs.
+experiments/results/**/*.log -diff
+experiments/results/**/*.jsonl -diff
+datasets/serving/*.jsonl -diff

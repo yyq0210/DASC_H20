@@ -1,0 +1,347 @@
+{
+  "arm": "dense",
+  "config": {
+    "length": "16k",
+    "n_per_task": 2,
+    "numtries": 2,
+    "tasks": [
+      "s1",
+      "mk1",
+      "vt",
+      "cwe"
+    ],
+    "max_tokens": {
+      "s1": 128,
+      "mk1": 128,
+      "vt": 30,
+      "cwe": 120
+    },
+    "base_seed": 42,
+    "temperature": 0.0
+  },
+  "records": [
+    {
+      "task": "s1",
+      "instance_idx": 0,
+      "try_idx": 1,
+      "ttft_ms": 990.68,
+      "accuracy": 1.0,
+      "cached_tokens": 0,
+      "prompt_chars": 77750,
+      "output_text": " 2867825",
+      "gold": [
+        "2867825"
+      ]
+    },
+    {
+      "task": "s1",
+      "instance_idx": 0,
+      "try_idx": 2,
+      "ttft_ms": 77.96,
+      "accuracy": 1.0,
+      "cached_tokens": 20672,
+      "prompt_chars": 77750,
+      "output_text": " 2867825",
+      "gold": [
+        "2867825"
+      ]
+    },
+    {
+      "task": "s1",
+      "instance_idx": 1,
+      "try_idx": 1,
+      "ttft_ms": 903.7,
+      "accuracy": 1.0,
+      "cached_tokens": 0,
+      "prompt_chars": 77753,
+      "output_text": " 5799696",
+      "gold": [
+        "5799696"
+      ]
+    },
+    {
+      "task": "s1",
+      "instance_idx": 1,
+      "try_idx": 2,
+      "ttft_ms": 71.99,
+      "accuracy": 1.0,
+      "cached_tokens": 20672,
+      "prompt_chars": 77753,
+      "output_text": " 5799696",
+      "gold": [
+        "5799696"
+      ]
+    },
+    {
+      "task": "mk1",
+      "instance_idx": 0,
+      "try_idx": 1,
+      "ttft_ms": 688.37,
+      "accuracy": 1.0,
+      "cached_tokens": 0,
+      "prompt_chars": 69413,
+      "output_text": " 2719583 and 2867825",
+      "gold": [
+        "2719583"
+      ]
+    },
+    {
+      "task": "mk1",
+      "instance_idx": 0,
+      "try_idx": 2,
+      "ttft_ms": 75.54,
+      "accuracy": 1.0,
+      "cached_tokens": 14464,
+      "prompt_chars": 69413,
+      "output_text": " 2719583 and 2867825",
+      "gold": [
+        "2719583"
+      ]
+    },
+    {
+      "task": "mk1",
+      "instance_idx": 1,
+      "try_idx": 1,
+      "ttft_ms": 686.98,
+      "accuracy": 1.0,
+      "cached_tokens": 0,
+      "prompt_chars": 69409,
+      "output_text": " 5799696, 3414798, 2615384, and 8760003",
+      "gold": [
+        "5799696"
+      ]
+    },
+    {
+      "task": "mk1",
+      "instance_idx": 1,
+      "try_idx": 2,
+      "ttft_ms": 72.92,
+      "accuracy": 1.0,
+      "cached_tokens": 14464,
+      "prompt_chars": 69409,
+      "output_text": " 5799696, 3414798, 2615384, and 8760003",
+      "gold": [
+        "5799696"
+      ]
+    },
+    {
+      "task": "vt",
+      "instance_idx": 0,
+      "try_idx": 1,
+      "ttft_ms": 859.96,
+      "accuracy": 1.0,
+      "cached_tokens": 0,
+      "prompt_chars": 76006,
+      "output_text": "25795, QAHFT,RXCKA,FNAFQ,OFPVA,USIEY",
+      "gold": [
+        "QAHFT",
+        "RXCKA",
+        "FNAFQ",
+        "OFPVA",
+        "USIEY"
+      ]
+    },
+    {
+      "task": "vt",
+      "instance_idx": 0,
+      "try_idx": 2,
+      "ttft_ms": 71.2,
+      "accuracy": 0.8,
+      "cached_tokens": 20224,
+      "prompt_chars": 76006,
+      "output_text": "25795,RXCKA,FNAFQ,OFPVA,USIEY",
+      "gold": [
+        "QAHFT",
+        "RXCKA",
+        "FNAFQ",
+        "OFPVA",
+        "USIEY"
+      ]
+    },
+    {
+      "task": "vt",
+      "instance_idx": 1,
+      "try_idx": 1,
+      "ttft_ms": 860.92,
+      "accuracy": 0.0,
+      "cached_tokens": 0,
+      "prompt_chars": 76006,
+      "output_text": "24148,24148,24148,24148,24148",
+      "gold": [
+        "BSDMR",
+        "ULMAL",
+        "JWOTL",
+        "EWVJC",
+        "NMUPN"
+      ]
+    },
+    {
+      "task": "vt",
+      "instance_idx": 1,
+      "try_idx": 2,
+      "ttft_ms": 79.75,
+      "accuracy": 0.0,
+      "cached_tokens": 20224,
+      "prompt_chars": 76006,
+      "output_text": "24148,24148,24148,24148,24148",
+      "gold": [
+        "BSDMR",
+        "ULMAL",
+        "JWOTL",
+        "EWVJC",
+        "NMUPN"
+      ]
+    },
+    {
+      "task": "cwe",
+      "instance_idx": 0,
+      "try_idx": 1,
+      "ttft_ms": 1097.1,
+      "accuracy": 1.0,
+      "cached_tokens": 0,
+      "prompt_chars": 59950,
+      "output_text": " 1. circumstance 2. fill 3. high 4. pull 5. dress 6. choosing 7. sled 8. save 9. creep 10. volcano",
+      "gold": [
+        "sled",
+        "circumstance",
+        "pull",
+        "high",
+        "fill",
+        "dress",
+        "choosing",
+        "creep",
+        "volcano",
+        "save"
+      ]
+    },
+    {
+      "task": "cwe",
+      "instance_idx": 0,
+      "try_idx": 2,
+      "ttft_ms": 72.62,
+      "accuracy": 1.0,
+      "cached_tokens": 22528,
+      "prompt_chars": 59950,
+      "output_text": " 1. circumstance 2. fill 3. high 4. pull 5. dress 6. choosing 7. sled 8. save 9. creep 10. volcano",
+      "gold": [
+        "sled",
+        "circumstance",
+        "pull",
+        "high",
+        "fill",
+        "dress",
+        "choosing",
+        "creep",
+        "volcano",
+        "save"
+      ]
+    },
+    {
+      "task": "cwe",
+      "instance_idx": 1,
+      "try_idx": 1,
+      "ttft_ms": 1088.91,
+      "accuracy": 1.0,
+      "cached_tokens": 0,
+      "prompt_chars": 60015,
+      "output_text": " 1. larch 2. capitalism 3. nursing 4. sprout 5. donor 6. lewd 7. scrim 8. wind 9. good 10. linseed",
+      "gold": [
+        "linseed",
+        "sprout",
+        "larch",
+        "capitalism",
+        "scrim",
+        "good",
+        "nursing",
+        "wind",
+        "lewd",
+        "donor"
+      ]
+    },
+    {
+      "task": "cwe",
+      "instance_idx": 1,
+      "try_idx": 2,
+      "ttft_ms": 82.99,
+      "accuracy": 1.0,
+      "cached_tokens": 22656,
+      "prompt_chars": 60015,
+      "output_text": " 1. larch 2. capitalism 3. nursing 4. sprout 5. donor 6. lewd 7. scrim 8. wind 9. good 10. linseed",
+      "gold": [
+        "linseed",
+        "sprout",
+        "larch",
+        "capitalism",
+        "scrim",
+        "good",
+        "nursing",
+        "wind",
+        "lewd",
+        "donor"
+      ]
+    }
+  ],
+  "summary": {
+    "per_task": {
+      "cwe": {
+        "n_instances": 2,
+        "numtries": 2,
+        "acc_mean": 1.0,
+        "acc_std": 0.0,
+        "ttft_try1_mean_ms": 1093.005,
+        "ttft_try1_std_ms": 5.791204537917702,
+        "ttft_hit_mean_ms": 77.805,
+        "ttft_hit_std_ms": 7.332697320904491,
+        "hit_rate_from_cached": 0.5,
+        "hit_rate_from_try": 0.5
+      },
+      "mk1": {
+        "n_instances": 2,
+        "numtries": 2,
+        "acc_mean": 1.0,
+        "acc_std": 0.0,
+        "ttft_try1_mean_ms": 687.675,
+        "ttft_try1_std_ms": 0.9828784258492914,
+        "ttft_hit_mean_ms": 74.23,
+        "ttft_hit_std_ms": 1.8526197667087578,
+        "hit_rate_from_cached": 0.5,
+        "hit_rate_from_try": 0.5
+      },
+      "s1": {
+        "n_instances": 2,
+        "numtries": 2,
+        "acc_mean": 1.0,
+        "acc_std": 0.0,
+        "ttft_try1_mean_ms": 947.19,
+        "ttft_try1_std_ms": 61.504147827605834,
+        "ttft_hit_mean_ms": 74.975,
+        "ttft_hit_std_ms": 4.221427483683688,
+        "hit_rate_from_cached": 0.5,
+        "hit_rate_from_try": 0.5
+      },
+      "vt": {
+        "n_instances": 2,
+        "numtries": 2,
+        "acc_mean": 0.45,
+        "acc_std": 0.5259911279353167,
+        "ttft_try1_mean_ms": 860.44,
+        "ttft_try1_std_ms": 0.6788225099390309,
+        "ttft_hit_mean_ms": 75.475,
+        "ttft_hit_std_ms": 6.045762979144979,
+        "hit_rate_from_cached": 0.5,
+        "hit_rate_from_try": 0.5
+      }
+    },
+    "overall_acc_mean": 0.8625,
+    "overall_acc_std": 0.3403429642777023,
+    "overall_ttft_mean_ms": 486.349375,
+    "overall_ttft_std_ms": 437.81930743886795,
+    "total_requests": 16,
+    "tasks": [
+      "cwe",
+      "mk1",
+      "s1",
+      "vt"
+    ]
+  }
+}

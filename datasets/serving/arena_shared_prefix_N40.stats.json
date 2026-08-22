@@ -1,0 +1,48 @@
+{
+  "source": "sharegpt_v3:ShareGPT_V3_unfiltered_cleaned_split.json",
+  "tokenizer": "/home/hadoop-scale-llm/VSCodeProjects/sglang/Kimi-Linear-48B-A3B-Instruct",
+  "language_filter": "English",
+  "seen": 94145,
+  "lang_ok": 68445,
+  "multiturn": 68445,
+  "candidates": 35866,
+  "selected_groups": 40,
+  "total_requests": 184,
+  "target_prefix_tok": 2048,
+  "min_group_prefix_tok": 1536,
+  "reuse_per_group": {
+    "mean": 4.6,
+    "median": 4.0,
+    "p90": 7.0,
+    "p99": 10.0,
+    "min": 1.0,
+    "max": 10.0
+  },
+  "prefix_tok": {
+    "mean": 1241.8,
+    "median": 1261.5,
+    "p90": 1913.0,
+    "p99": 2075.0,
+    "min": 135.0,
+    "max": 2089.0
+  },
+  "content_tok": {
+    "mean": 1267.1,
+    "median": 1284.0,
+    "p90": 1927.0,
+    "p99": 2086.0,
+    "min": 143.0,
+    "max": 2102.0
+  },
+  "group_max_prefix_tok": {
+    "mean": 1785.0,
+    "median": 1910.5,
+    "p90": 2011.0,
+    "p99": 2089.0,
+    "min": 783.0,
+    "max": 2089.0
+  },
+  "distinct_prefix_checkpoints_est": 184,
+  "dense_pool_saturation_0.7x": 129,
+  "out": "/tmp/arena_shared_prefix_N40.jsonl"
+}
